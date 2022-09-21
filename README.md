@@ -44,7 +44,7 @@ Users should be able to:
 
 I practiced using @media screens with this excercise and experimented with the best ways to define widths and heights for different-sized screens. At first, I tried using percentages to define the sizes, but it didn't work nicely with placing the image and information card next to each other. In the end, I defined the sizes using pixels.
 
-The screen sizes also led me to figure out how to switch out images based on the screen layout. For that, I used a simple CSS property/value pair - `display: none` to hide the image I didn't need.
+The screen sizes also led me to figure out how to switch out images based on the screen layout. First, I used a simple CSS property/value pair - `display: none` to hide the image I didn't need. However, after receiving feedback regarding proper semantic use of the HTML `<picture>` tag and SEO best practices, I updated my code to swap the images in the HTML file rather than using CSS.
 
 To see how you can add code snippets, see below:
 
@@ -52,14 +52,10 @@ To see how you can add code snippets, see below:
 <img src="images/image-product-mobile.jpg" alt="Gabrielle Chanel Perfume Bottle." class="product-image-mobile">
 ```
 ```css
-.product-image-desktop {
-        display: none;
-    }
-    
-.product-image-mobile {
-    width: 375px;
-    border-radius: 2% 2% 0 0;
-    padding: 0%;
+.card__image{
+    width: 300px;
+    border-radius: 3% 0 0 3%;
+    margin-top: 3px;
 }
 ```
 
