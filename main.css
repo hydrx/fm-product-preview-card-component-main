@@ -17,13 +17,13 @@
         align-items: center;
     } 
     
-    .product-image-desktop {
+    .card__image--desktop {
         width: 300px;
         border-radius: 3% 0 0 3%;
         margin-top: 3px;
     }
 
-    .product-image-mobile {
+    .card__image--mobile {
         display: none;
     }
     
@@ -48,11 +48,11 @@
         align-items: center;
     } 
 
-    .product-image-desktop {
+    .card__image--desktop {
         display: none;
     }
     
-    .product-image-mobile {
+    .card__image--mobile {
         width: 375px;
         border-radius: 2% 2% 0 0;
         padding: 0%;
