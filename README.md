@@ -7,7 +7,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
   - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -28,10 +27,13 @@ Users should be able to:
 ![](/design/solution-desktop.png)
 ![](/design/solution-mobile-active.png)
 
+<<<<<<< HEAD
 ### Links
 
 - Live Site URL: [https://neon-sprite-1f6015.netlify.app/](https://neon-sprite-1f6015.netlify.app/)
 
+=======
+>>>>>>> 0e8b1bd54b95560c098db5fab4c463d4c5a04829
 ## My process
 
 ### Built with
