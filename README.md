@@ -49,7 +49,10 @@ The screen sizes also led me to figure out how to switch out images based on the
 To see how you can add code snippets, see below:
 
 ```html
-<img src="images/image-product-mobile.jpg" alt="Gabrielle Chanel Perfume Bottle." class="product-image-mobile">
+<picture>
+  <source media="(max-width:624px)" srcset="images/image-product-mobile.jpg">
+  <img src="images/image-product-desktop.jpg" alt="Gabrielle Chanel Perfume Bottle." class="card__image">
+</picture>
 ```
 ```css
 .card__image{
